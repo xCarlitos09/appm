@@ -1,1 +1,1 @@
-web: flet run --web --port $PORT appm.py
+web: flet run --web --port 8080 appm.py
