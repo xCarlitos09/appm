@@ -16,4 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Comando para ejecutar la app en modo web
+
 CMD ["flet", "run", "--web", "--port", "8080", "appm.py"]
