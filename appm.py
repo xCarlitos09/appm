@@ -415,4 +415,5 @@ def main(page: ft.Page):
 
     page.add(tabs)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=8080, host="0.0.0.0")
+
